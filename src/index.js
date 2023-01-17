@@ -66,7 +66,6 @@ function decode(expr) {
         let array = [];
         dash.forEach(element => {
             array.push(MORSE_TABLE[element]);
-            console.log(MORSE_TABLE[element]);
         });
         return array;
     }
